@@ -1,0 +1,23 @@
+{
+    "status": "SUCCESS",
+    "data": {
+      "testId": "oihq2eo9h1029921-210-20112",
+      "questions": [
+        {
+          "questionId": "b28af948-db8b-465e-92e6-3d42534c4533",
+          "question": "The company's _____________ approach to product development _____________ customer feedback at every stage, _____________ user satisfaction and _____________ a loyal consumer base.",
+          "options": ["User-centric", "Incorporated", "Enhancing", "Cultivating"],
+          "correctAnswer": ["User-centric", "Incorporated", "Enhancing", "Cultivating"]
+        },
+        {
+          "questionId": "6e6534ea-260a-4c26-96fd-f830b27601fb",
+          "question": "The _____________ musical performance _____________ elements from various genres, _____________ the audience with its unique sound and _____________ critical acclaim from industry experts.",
+          "options": ["Eclectic", "Blended", "Captivating", "Garnering"],
+          "correctAnswer": ["Eclectic", "Blended", "Captivating", "Garnering"]
+        }
+       
+      ]
+    },
+    "message": "Questions fetched successfully"
+  }
+  

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% if correct %}
+        <h2>Correct!</h2>
+    {% else %}
+        <h2>Incorrect.</h2>
+        <p>Your answer: {{ user_input }}</p>
+        <p>Correct sentence: {{ original }}</p>
+    {% endif %}
+    <a href="{{ url_for('index') }}">Try another sentence</a>
+</body>
+</html>
